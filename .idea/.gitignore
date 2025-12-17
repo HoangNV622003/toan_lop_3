@@ -1,0 +1,75 @@
+# === Python & Virtual Environment ===
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+*.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Environment variables (RẤT QUAN TRỌNG với MySQL) ===
+.env
+.env.local
+.env.*.local
+.env.example  # Nếu bạn không muốn đẩy file mẫu lên
+
+# === IDE & Editor ===
+# PyCharm / IntelliJ (bạn đã có một phần, giữ lại và bổ sung)
+.idea/
+*.iws
+*.iml
+*.ipr
+workspace.xml
+tasks.xml
+dictionaries/
+shelf/
+httpRequests/
+dataSources/
+dataSources.local.xml
+dataSources.ids
+
+# VS Code
+.vscode/
+
+# === Database local (nếu bạn test với SQLite) ===
+*.sqlite3
+*.db
+*.sqlite
+
+# === Logs & Temp ===
+logs/
+*.log
+tmp/
+temp/
+
+# === Docker (nếu sau này dùng) ===
+Dockerfile.*
+docker-compose*.yml
+.docker/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
